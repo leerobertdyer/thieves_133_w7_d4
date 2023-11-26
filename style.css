@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: url('https://wallpaperaccess.com/full/58330.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 150vh;
+}
+
+
+h1 {
+    background-color: rgba(255, 233, 68, .7);
+    border: solid darkblue 3px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.town {
+    text-align: center;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+legend {
+    text-align: center;
+}
+
+.latLon {
+    border-radius: 14px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+.submit {
+    color: white;
+    background-Color: darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.submit:hover {
+    color: darkblue;
+    background-color: rgb(255, 233, 68);
+    border: darkblue 2px solid;
+}
+
+.cardHolder {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(196, 184, 117, 0.6);
+    gap: 10px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    border: darkblue solid 2px;
+    background-color: rgba(194, 213, 229, .6);
+    gap: 5px;
+    padding: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h2 {
+    text-decoration: underline;
+}

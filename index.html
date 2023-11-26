@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 4 Us</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="mainDiv">
+        <h1>Welcome to Bob's Weather Tracker</h1>
+        <p>Search your town name for current weather!</p>
+         <form>
+            <input type="text" placeholder="your hometown..." class="town" id="town">
+            <fieldset>
+                <legend>Lattitude</legend>
+                <input type="text" placeholder="55.5" class="latLon" id="lat">
+            </fieldset>
+
+            <fieldset>
+                <legend>Longitude</legend>
+                <input type="text" placeholder="-66.6" class="latLon" id="lon">
+            </fieldset>
+            <fieldset>
+                <legend>Get Your Weather</legend>
+                <input type="submit" value="Let's Go!" class="submit" id="submit">
+            </fieldset>
+
+
+        </form>
+        <div class="cardHolder" id="cardHolder">
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
